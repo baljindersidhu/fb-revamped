@@ -1,0 +1,9 @@
+@keyframes drop-from-top {
+    from {
+        transform: translateY(-12vh);
+    }
+
+    to {
+        transform: translateY(0vh);
+    }
+}

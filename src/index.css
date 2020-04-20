@@ -1,13 +1,56 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: 'Baloo Bhaina 2', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin                 : 0;
+	padding                : 0;
+	background-color       : #eef0f5;
+	font-size              : 1.85vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row {
+	display       : flex;
+	flex-direction: row;
+}
+
+.column {
+	display       : flex;
+	flex-direction: column;
+}
+
+.row.reverse {
+	flex-direction: row-reverse;
+}
+
+.column.reverse {
+	flex-direction: column-reverse;
+}
+
+.row.centerH,
+.column.centerV {
+	justify-content: center;
+}
+
+.row.centerV,
+.column.centerH {
+	align-items: center;
+}
+
+.row .fillParent,
+.column .fillParent {
+	flex: 1;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.positionAbsolute {
+	position: absolute;
+}
+
+.positionRelative {
+	position: relative;
 }
