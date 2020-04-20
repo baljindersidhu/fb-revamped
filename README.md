@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## App Template
+This Facebook UI Redesign [Template](https://dribbble.com/shots/9650156-Facebook-Ui-Redesign) is creation of [Sabdin Walid](https://dribbble.com/Sadbinwalid). Head over to his profile on dribbble and checkout more amazing templates like this.
+
+![AppTemplate](public/app-template.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
