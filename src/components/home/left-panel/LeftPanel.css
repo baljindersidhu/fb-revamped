@@ -1,0 +1,116 @@
+.LeftPanel {
+    margin-left        : 4vw;
+    opacity            : 0;
+    animation          : fade-in 0.35s linear;
+    animation-delay    : 0.45s;
+    animation-fill-mode: forwards;
+}
+
+.QuickLinks {
+    margin-bottom: 2.5vh;
+}
+
+.QuickLinks .UserQuickLink,
+.QuickLinks .Link,
+.Shortcuts .Link,
+.Explore .Link {
+    margin: 2vh 0vw;
+}
+
+.QuickLinks .UserQuickLink::before {
+    content         : '';
+    position        : absolute;
+    height          : 5vh;
+    width           : 0.15vw;
+    background-color: var(--selected-link-border-color);
+    left            : -2vw;
+}
+
+.QuickLinks .UserQuickLink .UserAvatar {
+    height: 5vh;
+    width : 2.5vw;
+}
+
+.QuickLinks .UserQuickLink .UserAvatar img {
+    width        : 100%;
+    border-radius: 50%;
+}
+
+.QuickLinks .UserQuickLink .Label,
+.QuickLinks .Link .Label,
+.Shortcuts .Link .Label,
+.Explore .Link .Label {
+    margin-left: 1vw;
+    font-size  : 1.65vh;
+    font-weight: bold;
+    color      : var(--app-grey-color);
+    width      : 6vw;
+}
+
+.QuickLinks .UserQuickLink .Label {
+    color  : black;
+    opacity: 0.7;
+}
+
+.QuickLinks .Link,
+.Shortcuts .Link,
+.Explore .Link {
+    cursor: pointer;
+}
+
+.QuickLinks .Link:hover .Label,
+.Shortcuts .Link:hover .Label,
+.Explore .Link:hover .Label {
+    text-decoration: underline;
+}
+
+.QuickLinks .Link:hover .IconButton,
+.Shortcuts .Link:hover .IconButton,
+.Explore .Link:hover .IconButton {
+    opacity: 0.5;
+}
+
+.Shortcuts .Link:nth-child(2) .IconButton,
+.Explore .Link:nth-child(2) .IconButton {
+    fill: var(--app-primary-color);
+}
+
+.Shortcuts .Link:nth-child(3) .IconButton,
+.Explore .Link:nth-child(3) .IconButton {
+    fill: #febf03;
+}
+
+.Shortcuts .Link:nth-child(4) .IconButton,
+.Explore .Link:nth-child(4) .IconButton {
+    fill: #ff4054;
+}
+
+.Shortcuts .Link .NotificationCount {
+    background-color: #ff4054;
+    color           : white;
+    border-radius   : 50%;
+    height          : 1.5vh;
+    width           : 0.9vw;
+    font-size       : 1.1vh;
+    font-weight     : bold;
+    text-align      : center;
+    padding-bottom  : 0.3vh;
+    box-shadow      : 2px 4px 13px #0153ff66;
+    margin-left     : 0.5vw;
+}
+
+.Shortcuts .SeeMoreBtn,
+.Explore .SeeMoreBtn {
+    background-color: var(--selected-link-bg-color);
+    color           : var(--app-primary-color);
+    font-weight     : bold;
+    border-radius   : 2vh;
+    text-align      : center;
+    margin-top      : -2vh;
+    margin-left     : 4vw;
+    margin-bottom   : 2.5vh;
+    width           : 6.5vw;
+    box-shadow      : 0px 0px 5px #ddd;
+    font-size       : 1.65vh;
+    text-shadow     : 0px 0px 5px #ddd;
+}
