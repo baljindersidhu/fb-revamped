@@ -1,0 +1,91 @@
+.CenterPanel {
+    margin             : 0vh 1.5vw;
+    opacity            : 0;
+    animation          : fade-in 0.35s linear;
+    animation-delay    : 0.45s;
+    animation-fill-mode: forwards;
+}
+
+.CenterPanel .Card {
+    padding: 2vh 1vw;
+}
+
+.CenterPanel .Card.CreatePost div:first-child>.IconButton {
+    fill: var(--app-primary-color);
+}
+
+.CenterPanel .Card.CreatePost .Header {
+    margin-left: 0.5vw;
+}
+
+.CenterPanel .CreatePost .WritePost {
+    border       : 2px solid #9b9ea52b;
+    border-radius: 2vh;
+    padding      : 1vh 0.5vw;
+    margin-top   : 1.5vh;
+}
+
+.CenterPanel .CreatePost .WritePost .UserAvatar {
+    width       : 2vw;
+    margin-right: 1vw;
+}
+
+.CenterPanel .CreatePost .WritePost .UserAvatar img {
+    width        : 100%;
+    border-radius: 50%;
+}
+
+.CenterPanel .CreatePost .WritePost textarea {
+    outline    : none;
+    border     : none;
+    font-family: inherit;
+    font-size  : 1.6vh;
+    resize     : none;
+}
+
+.CenterPanel .CreatePost .ActionsList {
+    margin-top: 1.5vh;
+}
+
+.CenterPanel .CreatePost .Action {
+    border-radius: 4vh;
+    padding      : 0vh 1vw 0vh 0vw;
+    margin-right : 1vw;
+    cursor       : pointer;
+}
+
+.CenterPanel .CreatePost .Action:nth-child(1) {
+    background-color: #ecf2ff;
+}
+
+.CenterPanel .CreatePost div.Action:first-child>.IconButton {
+    fill: white;
+}
+
+.CenterPanel .CreatePost .Action:nth-child(2) {
+    background-color: #fff0f2;
+}
+
+.CenterPanel .CreatePost .Action:nth-child(3) {
+    background-color: #fffaeb;
+}
+
+.CenterPanel .CreatePost .Action .IconButton {
+    transform: scale(0.6);
+}
+
+.CenterPanel .CreatePost .Action .Label {
+    margin-left: 0.2vw;
+    font-size  : 1.5vh;
+    font-weight: bold;
+    padding-top: 0.35vh;
+    opacity    : 0.7;
+}
+
+.CenterPanel .CreatePost .Action:hover .Label {
+    text-decoration: underline;
+}
+
+.CenterPanel .CreatePost .Action:hover .IconButton {
+    opacity: 0.5;
+}
