@@ -1,0 +1,8 @@
+.MenuIconButton .IconButton{
+    transform: scale(0.5);
+    fill: #0000008f;
+}
+
+.MenuIconButton .IconButton .SvgContainer svg path{
+    transform: scale(0.8) translate(1vw, 2.5vh);
+}
