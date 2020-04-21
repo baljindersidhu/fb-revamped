@@ -4,4 +4,19 @@
 
     --selected-link-bg-color: #f2f6ff;
     --selected-link-border-color: #d1e0ff;
+
+    --card-header-color: #979ba2;
+}
+
+.Card{
+    padding: 2vh 2vw;
+    background-color: white;
+    border-radius: 2vh;
+}
+
+.Card .Header{
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+    font-size: 1.7vh;
 }

@@ -6,13 +6,14 @@ import './animations.css';
 import 'remixicon/fonts/remixicon.css';
 
 import Navbar from './components/home/navbar/Navbar';
+import LeftPanel from './components/home/left-panel/LeftPanel';
 
 function App() {
 	return (
 		<div className="App">
 			<Navbar></Navbar>
-			<div class="row">
-				
+			<div className="row">
+				<LeftPanel />
 			</div>
 		</div>
 	);

@@ -87,6 +87,8 @@
 .Navbar .UserActions .action:first-child::before {
     content         : '';
     position        : absolute;
+    left            : 2vw;
+    top             : 0.25vh;
     padding         : 0.5vh;
     border-radius   : 50%;
     background-color: #e82121;
