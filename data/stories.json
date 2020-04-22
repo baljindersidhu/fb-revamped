@@ -1,0 +1,32 @@
+[
+    {
+        "cover": "stories/recal-media-ueBIGLmiI5A-unsplash.jpg",
+        "userFullName": "George Webb",
+        "userAvatar": "users/user5.jpeg"
+    },
+    {
+        "cover": "stories/nicholas-green-nPz8akkUmDI-unsplash.jpg",
+        "userFullName": "Brenda Wade",
+        "userAvatar": "users/user.jpg"
+    },
+    {
+        "cover": "stories/nathan-dumlao-YwhzwOA3RHY-unsplash.jpg",
+        "userFullName": "Phillip Reid",
+        "userAvatar": "users/user3.jpeg"
+    },
+    {
+        "cover": "stories/matthew-brodeur-DH_u2aV3nGM-unsplash.jpg",
+        "userFullName": "Nancy Guer",
+        "userAvatar": "users/user2.jpeg"
+    },
+    {
+        "cover": "stories/grace-ho-zej4HPQLR5o-unsplash.jpg",
+        "userFullName": "Tim Horton",
+        "userAvatar": "users/user4.jpeg"
+    },
+    {
+        "cover": "stories/charisse-kenion-Zyx6a0ReB18-unsplash.jpg",
+        "userFullName": "Michale Scott",
+        "userAvatar": "users/user5.jpeg"
+    }
+]

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fb-revamped/static/css/main.26917dc4.chunk.css",
+    "main.js": "/fb-revamped/static/js/main.381b0048.chunk.js",
+    "main.js.map": "/fb-revamped/static/js/main.381b0048.chunk.js.map",
+    "runtime-main.js": "/fb-revamped/static/js/runtime-main.238c1f5f.js",
+    "runtime-main.js.map": "/fb-revamped/static/js/runtime-main.238c1f5f.js.map",
+    "static/css/2.183cac1a.chunk.css": "/fb-revamped/static/css/2.183cac1a.chunk.css",
+    "static/js/2.1a63994e.chunk.js": "/fb-revamped/static/js/2.1a63994e.chunk.js",
+    "static/js/2.1a63994e.chunk.js.map": "/fb-revamped/static/js/2.1a63994e.chunk.js.map",
+    "index.html": "/fb-revamped/index.html",
+    "precache-manifest.f9a95c82b70e70e2543bd9035a92d283.js": "/fb-revamped/precache-manifest.f9a95c82b70e70e2543bd9035a92d283.js",
+    "service-worker.js": "/fb-revamped/service-worker.js",
+    "static/css/2.183cac1a.chunk.css.map": "/fb-revamped/static/css/2.183cac1a.chunk.css.map",
+    "static/css/main.26917dc4.chunk.css.map": "/fb-revamped/static/css/main.26917dc4.chunk.css.map",
+    "static/js/2.1a63994e.chunk.js.LICENSE.txt": "/fb-revamped/static/js/2.1a63994e.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/fb-revamped/static/media/qWczB6yyq4P9Adr3RtoX1q6ySizzkjQKuYoJZuQ.2d64115c.woff2",
+    "static/media/remixicon.css": "/fb-revamped/static/media/remixicon.e5b755b0.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.238c1f5f.js",
+    "static/css/2.183cac1a.chunk.css",
+    "static/js/2.1a63994e.chunk.js",
+    "static/css/main.26917dc4.chunk.css",
+    "static/js/main.381b0048.chunk.js"
+  ]
+}
