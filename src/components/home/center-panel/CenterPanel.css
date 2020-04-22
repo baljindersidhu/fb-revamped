@@ -7,7 +7,8 @@
 }
 
 .CenterPanel .Card {
-    padding: 2vh 1vw;
+    padding      : 2vh 1vw;
+    margin-bottom: 2.5vh;
 }
 
 .CenterPanel .Card.CreatePost div:first-child>.IconButton {
@@ -88,4 +89,96 @@
 
 .CenterPanel .CreatePost .Action:hover .IconButton {
     opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CenterPanel .Stories .SeeMoreBtn {
+    background-color: var(--selected-link-bg-color);
+    color           : var(--app-primary-color);
+    font-weight     : bold;
+    border-radius   : 2vh;
+    text-align      : center;
+    padding-top     : 0.25vh;
+    width           : 4.5vw;
+    font-size       : 1.35vh;
+    text-shadow     : 0px 0px 5px #ddd;
+}
+
+.CenterPanel .Stories .StoriesList {
+    margin  : 0vh -1vw;
+    width   : 52.2vw;
+    overflow: scroll;
+}
+
+.CenterPanel .Stories .DummyStoryTemplate, .CenterPanel .Stories .Story {
+    margin: 1vh 0.5vw;
+}
+
+.CenterPanel .Stories .DummyStoryTemplate:first-child, .CenterPanel .Stories .Story:first-child {
+    margin: 1vh 1vw;
+}
+
+.CenterPanel .Stories .DummyStoryTemplate .StoryPlaceholder, .CenterPanel .Stories .Story .Cover {
+    height          : 20vh;
+    width           : 7vw;
+    background-color: var(--selected-link-bg-color);
+    border-radius   : 2vh;
+    margin-bottom   : 1vh;
+}
+
+.CenterPanel .Stories .DummyStoryTemplate .UserAvatarPlaceholder {
+    padding         : 1.5vh;
+    border-radius   : 50%;
+    background-color: var(--selected-link-bg-color);
+}
+
+.CenterPanel .Stories .DummyStoryTemplate .UserFullNamePlaceholder {
+    padding         : 0.75vh;
+    width           : 4vw;
+    margin-left     : 0.5vw;
+    background-color: var(--selected-link-bg-color);
+    border-radius   : 1vh;
+}
+
+.CenterPanel .Stories .DummyStoryTemplate .StoryPlaceholder,
+.CenterPanel .Stories .DummyStoryTemplate .UserAvatarPlaceholder,
+.CenterPanel .Stories .DummyStoryTemplate .UserFullNamePlaceholder {
+    animation: blink 2s infinite ease-in-out;
+}
+
+.CenterPanel .Stories .Story .Cover {
+    height           : 20vh;
+    width            : 7vw;
+    border-radius    : 2vh;
+    margin-bottom    : 1vh;
+    background-size  : cover;
+    background-repeat: no-repeat;
+}
+
+.CenterPanel .Stories .Story .UserAvatar {
+    width       : 1.25vw;
+    height      : 2.5vh;
+    margin-right: 0.5vw;
+}
+
+.CenterPanel .Stories .Story .UserAvatar img {
+    border-radius: 50%;
+    width        : 100%;
+}
+
+.CenterPanel .Stories .Story .UserFullName {
+    font-weight: bold;
+    opacity    : 0.7;
+    font-size  : 1.6vh;
 }
