@@ -1,0 +1,76 @@
+[
+    {
+        "userAvatar": "user3.jpeg",
+        "userFullName": "Anthony Douglas",
+        "postedAt": 1587983891404,
+        "caption": "Lorem ipsum dolor sit amet, fabulas definitionem ei vel, no audiam delectus percipit sea, ad quo sensibus molestiae. Nullam accusamus his ei, id suavitate urbanitas sit. Nisl ignota vel eu, semper melius dolores vel te. Vel aeque conceptam ad, viris eripuit consectetuer ut vis, no pri timeam molestie pericula.",
+        "media": [
+            "posts/random/wim-van-t-einde-uj7eb7CgqRk-unsplash.jpg",
+            "posts/random/eunice-stahl-n1o43GjUmpU-unsplash.jpg",
+            "posts/random/elza-kurbanova-NEab1U1FfKM-unsplash.jpg",
+            "posts/random/deva-darshan-WWwyh_zt6lk-unsplash.jpg"
+        ],
+        "likesCount": 324,
+        "commentsCount": 11
+    },
+    {
+        "userAvatar": "user2.jpeg",
+        "userFullName": "Anthony Douglas",
+        "postedAt": 1587554194134,
+        "caption": "Aliquid eleifend vis et, eum vero movet honestatis no, qui ad agam viris volumus. Partem scriptorem id eos. Velit nemore sea ad, quot prompta habemus an eam. Audire adipiscing in ius. Vis in labitur liberavisse, mel an expetenda moderatius, sed ei nonumes vocibus pertinax. Et vocibus periculis qui. Te habeo invenire pri, vivendo vituperata persequeris sea no, fugit legendos sadipscing vix id.",
+        "media": [
+            "posts/dog/stefan-kostoski-dMPQ6T08bX0-unsplash.jpg",
+            "posts/dog/meritt-thomas-dAEVb8PkYyQ-unsplash.jpg",
+            "posts/dog/helena-lopes-QCS2-ttPxH0-unsplash.jpg",
+            "posts/dog/helena-lopes-Fk5-NJzOTDE-unsplash.jpg",
+            "posts/dog/regine-tholen-fIWopt7_xh4-unsplash.jpg",
+            "posts/dog/laula-co-juSmsxIFtRY-unsplash.jpg"
+        ],
+        "likesCount": 324,
+        "commentsCount": 11
+    },
+    {
+        "userAvatar": "user2.jpeg",
+        "userFullName": "Anthony Douglas",
+        "postedAt": 1587554194134,
+        "caption": "Aliquid eleifend vis et, eum vero movet honestatis no, qui ad agam viris volumus. Partem scriptorem id eos. Velit nemore sea ad, quot prompta habemus an eam. Audire adipiscing in ius. Vis in labitur liberavisse, mel an expetenda moderatius, sed ei nonumes vocibus pertinax. Et vocibus periculis qui. Te habeo invenire pri, vivendo vituperata persequeris sea no, fugit legendos sadipscing vix id.",
+        "media": [
+            "posts/kayaking/taryn-manning-y3CAU_73jWk-unsplash.jpg",
+            "posts/kayaking/rebecca-peterson-hall-EM0T1sngP-U-unsplash.jpg",
+            "posts/kayaking/benjamin-davies-mqN-EV9rNlY-unsplash.jpg",
+            "posts/kayaking/roya-ann-miller-ojG9qrU_blw-unsplash.jpg"
+        ],
+        "likesCount": 324,
+        "commentsCount": 11
+    },
+    {
+        "userAvatar": "user4.jpeg",
+        "userFullName": "Anthony Douglas",
+        "postedAt": 1587554194134,
+        "caption": "Lorem ipsum dolor sit amet, fabulas definitionem ei vel, no audiam delectus percipit sea, ad quo sensibus molestiae. Nullam accusamus his ei, id suavitate urbanitas sit. Nisl ignota vel eu, semper melius dolores vel te. Vel aeque conceptam ad, viris eripuit consectetuer ut vis, no pri timeam molestie pericula.",
+        "media": [
+            "posts/hiking/jake-melara-Yh6K2eTr_FY-unsplash.jpg",
+            "posts/hiking/jon-flobrant-_r19nfvS3wY-unsplash.jpg",
+            "posts/hiking/julian-bialowas-ilkTnuMunP8-unsplash.jpg",
+            "posts/hiking/simon-migaj-Bs9LqOlfB4g-unsplash.jpg",
+            "posts/hiking/andrew-ly-bQl2kRQyUE8-unsplash.jpg",
+            "posts/hiking/holly-mandarich-bMog4gpujsI-unsplash.jpg"
+        ],
+        "likesCount": 324,
+        "commentsCount": 11
+    },
+    {
+        "userAvatar": "user4.jpeg",
+        "userFullName": "Anthony Douglas",
+        "postedAt": 1587554194134,
+        "caption": "Aliquid eleifend vis et, eum vero movet honestatis no, qui ad agam viris volumus. Partem scriptorem id eos. Velit nemore sea ad, quot prompta habemus an eam. Audire adipiscing in ius. Vis in labitur liberavisse, mel an expetenda moderatius, sed ei nonumes vocibus pertinax. Et vocibus periculis qui. Te habeo invenire pri, vivendo vituperata persequeris sea no, fugit legendos sadipscing vix id.",
+        "media": [
+            "posts/europe/aude-andre-saturnio-AGIk6YtFc6w-unsplash.jpg",
+            "posts/europe/elion-jashari-Pk0vmndzn4s-unsplash.jpg",
+            "posts/europe/alex-vasey-zMbxBDg4qBc-unsplash.jpg",
+            "posts/europe/augustin-de-montesquiou-RqMIFcDLeos-unsplash.jpg"
+        ],
+        "likesCount": 324,
+        "commentsCount": 11
+    }
+]

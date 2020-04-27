@@ -121,15 +121,18 @@
     overflow: scroll;
 }
 
-.CenterPanel .Stories .DummyStoryTemplate, .CenterPanel .Stories .Story {
+.CenterPanel .Stories .DummyStoryTemplate,
+.CenterPanel .Stories .Story {
     margin: 1vh 0.5vw;
 }
 
-.CenterPanel .Stories .DummyStoryTemplate:first-child, .CenterPanel .Stories .Story:first-child {
+.CenterPanel .Stories .DummyStoryTemplate:first-child,
+.CenterPanel .Stories .Story:first-child {
     margin: 1vh 1vw;
 }
 
-.CenterPanel .Stories .DummyStoryTemplate .StoryPlaceholder, .CenterPanel .Stories .Story .Cover {
+.CenterPanel .Stories .DummyStoryTemplate .StoryPlaceholder,
+.CenterPanel .Stories .Story .Cover {
     height          : 20vh;
     width           : 7vw;
     background-color: var(--selected-link-bg-color);
@@ -164,6 +167,12 @@
     margin-bottom    : 1vh;
     background-size  : cover;
     background-repeat: no-repeat;
+    cursor           : pointer;
+    transition       : opacity 0.15s ease-in-out;
+}
+
+.CenterPanel .Stories .Story .Cover:hover {
+    opacity: 0.8;
 }
 
 .CenterPanel .Stories .Story .UserAvatar {
@@ -181,4 +190,179 @@
     font-weight: bold;
     opacity    : 0.7;
     font-size  : 1.6vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CenterPanel .DummyNewsFeedPost {}
+
+.CenterPanel .DummyNewsFeedPost .UserAvatarPlaceholder,
+.CenterPanel .NewsFeed .NewsFeedPost .UserAvatar {
+    padding      : 2.25vh;
+    border-radius: 50%;
+    margin-right : 1vw;
+}
+
+.CenterPanel .DummyNewsFeedPost .UserNamePlaceholder,
+.CenterPanel .DummyNewsFeedPost .PostedAtPlaceholder {
+    height       : 1.5vh;
+    width        : 16vw;
+    border-radius: 1vh;
+}
+
+.CenterPanel .DummyNewsFeedPost .MenuIconBtnPlaceholder {
+    padding      : 1vh;
+    border-radius: 50%;
+    height       : 3vh;
+    width        : 1.5vw;
+    transform    : scale(0.5);
+}
+
+.CenterPanel .DummyNewsFeedPost .PostedAtPlaceholder {
+    width     : 8vw;
+    margin-top: 1vh;
+}
+
+.CenterPanel .DummyNewsFeedPost .PostCaptionPlaceholder {
+    height       : 10vh;
+    margin-top   : 1.5vh;
+    border-radius: 2vh;
+}
+
+.CenterPanel .DummyNewsFeedPost .UserAvatarPlaceholder,
+.CenterPanel .DummyNewsFeedPost .UserNamePlaceholder,
+.CenterPanel .DummyNewsFeedPost .PostedAtPlaceholder,
+.CenterPanel .DummyNewsFeedPost .MenuIconBtnPlaceholder,
+.CenterPanel .DummyNewsFeedPost .PostCaptionPlaceholder {
+    background: var(--selected-link-bg-color);
+    animation : blink 2s infinite ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CenterPanel .NewsFeed .NewsFeedPost .UserAvatar {
+    background-size  : contain;
+    background-repeat: no-repeat;
+    box-shadow       : 2px 4px 30px #0153ff26;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .UserFullName {
+    text-shadow: 0px 0px 1px #333;
+    height     : 2.75vh;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .PostedAt {
+    height      : 2.5vh;
+    margin-right: 0.5vw;
+    font-size   : 1.5vh;
+    font-weight : bold;
+    opacity     : 0.8;
+    color       : var(--app-grey-color);
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .ri-notification-4-line {
+    font-size  : 1.5vh;
+    color      : var(--app-primary-color);
+    text-shadow: 2px 4px 13px #0153ff47;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .PostCaption {
+    margin-top : 1.5vh;
+    line-height: 1.35;
+    width      : 34vw;
+    color      : var(--app-grey-color);
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .PostCaption .seeMoreBtn {
+    color      : var(--app-primary-color);
+    font-weight: bold;
+    font-size  : 1.5vh;
+    text-align : left;
+    text-shadow: 0px 0px 5px #ddd;
+    width      : 4.5vw;
+    padding-top: 0.25vh;
+    margin-left: 0.35vw;
+    cursor     : pointer;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .PostCaption .seeMoreBtn:hover {
+    opacity: 0.6;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions {
+    margin-top: 1vh;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Action {
+    height       : 2.25vh;
+    width        : 1.25vw;
+    color        : white;
+    font-size    : 1.65vh;
+    text-align   : center;
+    border-radius: 50%;
+    margin       : 0vh 0.1vw;
+    cursor       : pointer;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Action:hover {
+    opacity: 0.6;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Action:first-child {
+    background-color: var(--app-primary-color);
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Action:nth-child(2) {
+    background-color: var(--like-btn-bg-color);
+    margin-right    : 0.25vw;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Label {
+    font-size: 1.6vh;
+    margin   : 0vh 0.5vw;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Label:nth-child(3) {
+    color      : var(--app-grey-color);
+    font-weight: bold;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Label:nth-child(4) {
+    font-weight: bold;
+    cursor     : pointer;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Label:nth-child(4):hover {
+    text-decoration: underline;
+}
+
+.CenterPanel .NewsFeed .NewsFeedPost .Actions .Label:last-child {
+    margin-right: 0.5vw;
+    font-style  : normal;
 }
