@@ -5,6 +5,7 @@ import IconButton from '../../icon-button/IconButton';
 import MenuIconButton from '../../menu-icon-button/MenuIconButton';
 import RestService from '../../../services/rest.service';
 import NewsFeedPost from '../../../models/NewsFeedPost';
+import MediaGallery from '../../media-gallery/MediaGallery';
 
 export default function CenterPanel() {
     return(
@@ -192,7 +193,7 @@ class NewsFeed extends React.Component{
                         <div className="UserFullName">{post_data.userFullName}</div>
                         <div className="row centerV">
                             <div className="PostedAt">{post_data.getPostedAt()}</div>
-                            <i className="ri-notification-4-line"></i>
+                            <i className="ri-alarm-line"></i>
                         </div>
                     </div>
                     <div className="fillParent"></div>
@@ -254,12 +255,4 @@ function DummyNewsFeedPost(){
             <div className="PostCaptionPlaceholder"></div>
         </div>
     )
-}
-
-function MediaGallery(props){
-    return (
-        <div className="MediaGallery">
-            This is media gallery
-        </div>
-    );
 }

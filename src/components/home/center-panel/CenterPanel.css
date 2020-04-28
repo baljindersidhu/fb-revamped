@@ -208,8 +208,6 @@
 
 
 
-.CenterPanel .DummyNewsFeedPost {}
-
 .CenterPanel .DummyNewsFeedPost .UserAvatarPlaceholder,
 .CenterPanel .NewsFeed .NewsFeedPost .UserAvatar {
     padding      : 2.25vh;
@@ -286,7 +284,7 @@
     color       : var(--app-grey-color);
 }
 
-.CenterPanel .NewsFeed .NewsFeedPost .ri-notification-4-line {
+.CenterPanel .NewsFeed .NewsFeedPost .PostedAt + i {
     font-size  : 1.5vh;
     color      : var(--app-primary-color);
     text-shadow: 2px 4px 13px #0153ff47;

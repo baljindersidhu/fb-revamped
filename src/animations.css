@@ -31,3 +31,25 @@
         opacity: 0.3;
     }
 }
+
+@keyframes grow-from-center {
+    from {
+        transform-origin: center;
+        transform: scale(0)
+    }
+
+    to {
+        transform-origin: center;
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-out{
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

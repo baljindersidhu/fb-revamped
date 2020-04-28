@@ -1,0 +1,169 @@
+.MediaGallery {
+    margin: 2vh -0.5vw 3vh -0.5vw;
+}
+
+.MediaObject {
+    position     : relative;
+    height       : 18vh;
+    width        : 9vw;
+    border-radius: 1vh;
+    margin       : 0vh 0.5vw;
+    cursor       : pointer;
+    overflow     : hidden;
+    transition   : box-shadow 0.5s ease-in-out;
+}
+
+.MediaObject:not(.Placeholder):hover {
+    box-shadow: 0px 0px 2vh #33333361;
+}
+
+.MediaObject:not(.Placeholder):hover::before {
+    position           : absolute;
+    content            : '';
+    height             : inherit;
+    width              : inherit;
+    background-color   : #333;
+    opacity            : 0.5;
+    border-radius      : 50%;
+    animation          : grow-from-center 0.5s ease-in-out, fade-out 0.45s linear;
+    animation-fill-mode: forwards;
+}
+
+.MediaObject.Placeholder {
+    position        : relative;
+    background-color: var(--selected-link-bg-color);
+    animation       : blink 2s infinite ease-in-out;
+    cursor          : default;
+}
+
+.MediaObject.Placeholder::before {
+    position               : absolute;
+    height                 : inherit;
+    width                  : inherit;
+    border-radius          : inherit;
+    display                : flex;
+    justify-content        : center;
+    align-items            : center;
+    color                  : var(--selected-link-border-color);
+    font-size              : 2.5vh;
+    font-family            : 'remixicon' !important;
+    font-style             : normal;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.MediaObject.Image.Placeholder::before {
+    content: "\edf1";
+}
+
+.MediaObject.Audio.Placeholder::before {
+    content: "\ef08";
+}
+
+.MediaObject.Video.Placeholder::before {
+    content: "\f1b9";
+}
+
+
+
+
+
+
+
+
+
+.ExpandGallery {
+    position         : relative;
+    height           : 18vh;
+    width            : 9vw;
+    font-size        : 2vh;
+    text-shadow      : 0px 0px 2px #888;
+    margin           : 0vh 0.5vw;
+    background-color : var(--selected-link-bg-color);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    border-radius    : 1vh;
+    cursor           : pointer;
+    overflow         : hidden;
+}
+
+.ExpandGallery::after {
+    position        : absolute;
+    content         : '';
+    height          : inherit;
+    width           : inherit;
+    border-radius   : inherit;
+    background-color: #333;
+    opacity         : 0.4;
+    transition      : opacity 0.25s linear;
+}
+
+.ExpandGallery:hover::after {
+    opacity: 0.7;
+}
+
+.ExpandGallery .Label {
+    position     : absolute;
+    height       : inherit;
+    width        : inherit;
+    border-radius: inherit;
+    color        : white;
+    z-index      : 3;
+}
+
+
+
+
+
+
+
+
+
+.MediaObject.Image {
+    background-size  : cover;
+    background-repeat: no-repeat;
+}
+
+.MediaObject.Video video {
+    height: inherit;
+}
+
+.MediaObject.Video .VideoControls {
+    color    : white;
+    font-size: 2.25vh;
+}
+
+.MediaObject.Video .VideoControls {
+    height    : inherit;
+    width     : inherit;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.MediaObject.Video .VideoControls[data-playing="true"] {
+    opacity: 0;
+}
+
+.MediaObject.Video:hover .VideoControls[data-playing="true"] {
+    opacity: 1;
+    cursor: default;
+}
+
+.MediaObject.Video .VideoControls .ri-play-circle-fill,
+.MediaObject.Video .VideoControls[data-playing="true"] .ri-pause-circle-fill {
+    top      : 7.25vh;
+    font-size: 3vh;
+    left     : 3.65vw;
+    cursor   : pointer;
+}
+
+.MediaObject.Video .VideoControls[data-playing="false"] .ri-pause-circle-fill,
+.MediaObject.Video .VideoControls[data-playing="false"] .ri-fullscreen-fill,
+.MediaObject.Video .VideoControls[data-playing="true"] .ri-play-circle-fill {
+    display: none;
+}
+
+.MediaObject.Video .VideoControls[data-playing="true"] .ri-fullscreen-fill {
+    top      : 14vh;
+    left     : 5.75vw;
+    cursor   : pointer;
+}
