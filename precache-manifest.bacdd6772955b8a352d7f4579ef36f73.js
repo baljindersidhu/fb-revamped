@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "409ec96a47da6c1437efdcf4ebbbb140",
+    "revision": "9d07867d87cba515c992fb9241d88c6f",
     "url": "/fb-revamped/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fb-revamped/static/css/2.183cac1a.chunk.css"
   },
   {
-    "revision": "933b0605b63b71261185",
-    "url": "/fb-revamped/static/css/main.e55138d8.chunk.css"
+    "revision": "10c2cd7a37ad7a66a313",
+    "url": "/fb-revamped/static/css/main.3f2d1ea1.chunk.css"
   },
   {
     "revision": "16f1e756699a10d5488c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fb-revamped/static/js/2.d6768108.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "933b0605b63b71261185",
-    "url": "/fb-revamped/static/js/main.bb7dc73f.chunk.js"
+    "revision": "10c2cd7a37ad7a66a313",
+    "url": "/fb-revamped/static/js/main.a586c7a2.chunk.js"
   },
   {
     "revision": "0b83e48b3ec4e4a733cf",
